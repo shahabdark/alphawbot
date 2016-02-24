@@ -1,5 +1,5 @@
 -- -*- coding: utf-8 -*-
---
+-- sudoer : @mehdihs
 -- Simple JSON encoding and decoding in pure Lua.
 --
 -- Copyright 2010-2014 Jeffrey Friedl
