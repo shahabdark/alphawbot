@@ -316,8 +316,6 @@ return {
     "gbanlist: List Of Globally Banned Of Bots.",
     "id: Return Group Id",
     "id [reply]: Return User Id.",
-    "Sticker [Reply]: Banned User Of All Groups.",
-    "😡 [Reply]: Banned User Of All Groups.",
     },
   patterns = {
     "^!!tgservice (.+)$",
@@ -341,7 +339,6 @@ return {
     "%[(audio)%]",
     "%[(document)%]",
     "%[(photo)%]",
-    "^😡$"
   },
   run = run,
   pre_process = pre_process
