@@ -1,10 +1,10 @@
 
---An empty table for solving multiple kicking problem(thanks to @topkecleon )
+--An empty table for solving multiple kicking problem(thanks to @MehdiHS )
 kicktable = {}
 
 do
 
-local TIME_CHECK = 2 -- seconds
+local TIME_CHECK = 4 -- seconds
 local data = load_data(_config.moderation.data)
 -- Save stats, ban user
 local function pre_process(msg)

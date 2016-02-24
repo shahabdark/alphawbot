@@ -13,8 +13,11 @@ local bot_id = our_id -- your bot id
 end
  
 return {
+   usage = {
+      "leave: Bot Delete Him Self Of Group.",
+      },
   patterns = {
-    "^[!/](leave)$",
+    "^([Ll]eave)$",
     "^!!tgservice (.+)$",
   },
   run = run
