@@ -10,7 +10,7 @@ do
    local chat = "chat#id"..100789996
 
   local sends = send_msg(chat, fuse, ok_cb, false)
-  return 'Sent!:|'
+  return 'Sent!'
 
  end
  end
