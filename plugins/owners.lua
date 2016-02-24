@@ -311,7 +311,7 @@ return {
     "^([Cc]hangeabout) (%d+) (.*)$",
     "^([Cc]hangerules) (%d+) (.*)$",
     "^([Cc]hangename) (%d+) (.*)$",
-		"^[!/]([Ll]oggroup) (%d+)$"
+		"^([Ll]oggroup) (%d+)$"
   },
   run = run
 }
