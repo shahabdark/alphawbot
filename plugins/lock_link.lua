@@ -15,7 +15,7 @@ if msg.to.type == 'chat' then
     local chat = get_receiver(msg)
     local user = "user#id"..msg.from.id
     if lock_ads == "yes" then
-        send_large_msg(chat, 'Ads is not allowed here!!')
+        send_large_msg(chat, 'ADS not allowed here')
         chat_del_user(chat, user, ok_cb, true)
     end
 end
@@ -26,15 +26,9 @@ return {
         "unlock adds: Adds Is Enabled.",
         },
   patterns = {
-    "telegram.me/joinchat/",
+    "[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Ha][Tt]/",
         "telegram.me",
     "[Ht]ttps://"
-    "[Hh][Tt][Tt][Pp][Ss]://[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/",
-    "[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/[Jj][Oo][Ii][Nn][Cc][Hh][Aa][Tt]/",
-    "[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/",
-    "[Hh][Tt][Tt][Pp][Ss]://[Tt][Ee][Ll][Ee][Gg][Rr][Aa][Mm].[Mm][Ee]/",
-    "[Hh][Tt][Tt][Pp][Ss]://",
-    "[Hh][Tt][Tt][Pp]://"
   },
   run = run
 }
