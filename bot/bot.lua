@@ -226,19 +226,19 @@ function create_config( )
     "leave_ban",
     "admin",
     "plugins"
-    "SUDO"
-    "autoleave"
-    "auto_leave"
-    "feedback"
-    "invite"
-    "join"
-    "linkpv"
-    "nerkh"
-    "tagall"
-    "time"
-    "tosupport"
-    "id"
-    "share_contact"
+    "SUDO",
+    "autoleave",
+    "auto_leave",
+    "feedback",
+    "invite",
+    "join",
+    "linkpv",
+    "nerkh",
+    "tagall",
+    "time",
+    "tosupport",
+    "id",
+    "share_contact",
     "pm"
     },
     sudo_users = {56693692,126388065},--Sudo users
