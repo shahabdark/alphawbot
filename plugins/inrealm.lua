@@ -660,8 +660,8 @@ return {
   patterns = {
     "^([Cc]reategroup) (.*)$",
     "^([Cc]reaterealm) (.*)$",
-    "^([!/#]setabout) (.*)$",
-    "^([!/#]setrules) (%d+) (.*)$",
+    "^([Ss]etabout) (.*)$",
+    "^([Ss]etrules) (%d+) (.*)$",
     "^([Ss]etname) (.*)$",
     "^([Ss]etname) (%d+) (.*)$",
     "^([Ss]etname) (%d+) (.*)$",
