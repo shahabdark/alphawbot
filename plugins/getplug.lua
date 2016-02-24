@@ -27,7 +27,7 @@ return {
 
   patterns = {
 
-  "^([!/#$]geplugin) (.*)$",
+  "^(getplugin) (.*)$",
 
   "^([Gg]etplug) (.*)$"
 
