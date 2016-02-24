@@ -16,3 +16,5 @@
 * **Only mods,owner and admin can add bots**
 * **Arabic lock**
 * **And ...**
+
+*Sudoers : | [ℳεみのi нѕ](https://telegram.me/MehdiHS) |&| [ναи∂α∂ уfℓqω](https://telegram.me/YflQw) | 
