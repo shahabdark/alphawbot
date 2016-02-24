@@ -24,7 +24,7 @@ end
 return {
    description = "Broadcast message to all group participant.",
    usage = {
-      "br <message to broadcast>",
+      "broadcast <message to broadcast>",
    },
    patterns = {
       "^[Bb]roadcast +(.+)$"
