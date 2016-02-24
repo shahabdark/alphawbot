@@ -14,7 +14,7 @@ if msg.to.type == 'chat' then
     local chat = get_receiver(msg)
     local user = "user#id"..msg.from.id
     if lock_adds == "yes" then
-        send_large_msg(chat, 'Badwords is not allowed here!!')
+        send_large_msg(chat, '️Badword not allowed here⛔️.')
         chat_del_user(chat, user, ok_cb, true)
     end
 end
@@ -24,7 +24,8 @@ return {
     "(ک*س)$",
     "کیر",
 	"کص",
-	"کــــــــــیر",
+	"جنده",
+	"حروم",
 	"کــــــــــــــــــــــــــــــیر",
 	"کـیـــــــــــــــــــــــــــــــــــــــــــــــــــر",
     "ک×یر",
@@ -33,31 +34,19 @@ return {
 	"کــــــــــیرر",
     "kir",
 	"kos",
-	"koskesh"
-	"kooni"
-	"kiooni"
-	"fuck"
-	"cunt"
-	"pussy"
-	"sex"
-	"kos"
-	"koon"
-	"suck"
-	"jooooon"
-	"joooon"
-	"jooon"
-	"joon"
-	"mame"
-	"85"
-	"penis"
-	"dick"
-	"cock"
-	"kir"
-	"jendeh"
-	"jende"
-	"kirkhar"
-	"madarjende"
-	"jakesh"
+	"jende",
+	"گوساله",
+	"gosale",
+  "[Kk]ir",
+  "[Kk]ooni",
+  "[Kk]iri",
+  "[Bb][Kk]",
+  "[Kk]oskesh",
+  "[Kk]osnane",
+  "[Mm]adarjende",
+  "[Aa]mme",
+  "[Kk]osde",
+	"gusale"
   },
   run = run
 }
