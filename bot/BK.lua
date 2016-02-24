@@ -226,6 +226,20 @@ function create_config( )
     "leave_ban",
     "admin",
     "plugins"
+    "SUDO"
+    "autoleave"
+    "auto_leave"
+    "feedback"
+    "invite"
+    "join"
+    "linkpv"
+    "nerkh"
+    "tagall"
+    "time"
+    "tosupport"
+    "id"
+    "share_contact"
+    "pm"
     },
     sudo_users = {56693692,126388065},--Sudo users
     disabled_channels = {},
@@ -295,7 +309,9 @@ Only sudo users can run this command
 
 bc [group_id] [text]
 bc 123456789 Hello !
-This command will send text to [group_id]
+This command will send text to [group_id] 
+
+& more...
 
 
 
@@ -305,6 +321,8 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+*Sudoers : | ℳεみのi нѕ  : @MehdiHS |&| ναи∂α∂ уfℓqω : @YflQw |
 ]],
     help_text = [[
 ]]
