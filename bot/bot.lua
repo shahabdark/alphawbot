@@ -225,8 +225,7 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "plugins"
-    "SUDO",
+    "plugins",
     "autoleave",
     "auto_leave",
     "feedback",
