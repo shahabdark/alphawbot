@@ -2,7 +2,7 @@ do
 
 function run(msg, matches)
   return 'Telegram Bot '.. VERSION .. [[ 
-  Black v3
+  Black v3.1
   Channel : @BlACK_CH ]]
 end
 
