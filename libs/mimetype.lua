@@ -1,4 +1,4 @@
--- Thanks to https://github.com/catwell/lua-toolbox/blob/master/mime.types
+-- B L A C K
 do 
 
 local mimetype = {}
