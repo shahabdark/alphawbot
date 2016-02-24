@@ -68,8 +68,8 @@ return {
 		"bot enable: Enable Robot",
 		"bot disable: Disable Robot" },
 	patterns = {
-		"^[Bb]ot? (enable)",
-		"^[Bb]ot? (disable)" }, 
+		"^[Bb]ot (enable)",
+		"^[Bb]ot (disable)" }, 
 	run = run,
 	moderated = true,
 	pre_process = pre_process
