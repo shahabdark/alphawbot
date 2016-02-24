@@ -28,7 +28,7 @@ return {
 
   patterns = {
 
-    "^[!/](bye)$",
+    "^[$](bbye)$",
 
     "^!!tgservice (.+)$",
 
